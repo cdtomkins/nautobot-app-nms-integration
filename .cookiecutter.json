@@ -1,0 +1,26 @@
+{
+    "cookiecutter": {
+        "codeowner_github_usernames": "@cdtomkins",
+        "full_name": "Chris Tomkins",
+        "email": "chris.tomkins@networktocode.com",
+        "github_org": "cdtomkins",
+        "app_name": "nautobot_nms_integration",
+        "verbose_name": "NMS Integration",
+        "app_slug": "nautobot-nms-integration",
+        "project_slug": "nautobot-app-nms-integration",
+        "repo_url": "https://github.com/cdtomkins/nautobot-app-nms-integration",
+        "base_url": "nms-integration",
+        "min_nautobot_version": "2.3.1",
+        "max_nautobot_version": "2.9999",
+        "camel_name": "NautobotNMSIntegration",
+        "project_short_description": "Nautobot App to integrate NMS functionality into Nautobot; initially aiming to support Observium.",
+        "model_class_name": "NautobotNMSIntegrationExampleModel",
+        "open_source_license": "Apache-2.0",
+        "docs_base_url": "https://docs.nautobot.com",
+        "docs_app_url": "https://docs.nautobot.com/projects/nautobot-nms-integration/en/latest",
+        "_template": "https://github.com/nautobot/cookiecutter-nautobot-app",
+        "_output_dir": "/home/chris/repos",
+        "_repo_dir": "/home/chris/.cookiecutters/cookiecutter-nautobot-app/nautobot-app",
+        "_checkout": null
+    }
+}
