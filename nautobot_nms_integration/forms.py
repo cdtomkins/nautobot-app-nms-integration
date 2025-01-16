@@ -13,10 +13,7 @@ class NautobotNMSIntegrationExampleModelForm(NautobotModelForm):  # pylint: disa
         """Meta attributes."""
 
         model = models.NautobotNMSIntegrationExampleModel
-        fields = [
-            "name",
-            "description",
-        ]
+        fields = "__all__"
 
 
 class NautobotNMSIntegrationExampleModelBulkEditForm(TagsBulkEditFormMixin, NautobotBulkEditForm):  # pylint: disable=too-many-ancestors
