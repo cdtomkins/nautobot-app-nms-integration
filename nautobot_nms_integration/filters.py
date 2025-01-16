@@ -14,4 +14,4 @@ class NautobotNMSIntegrationExampleModelFilterSet(NautobotFilterSet, NameSearchF
         model = models.NautobotNMSIntegrationExampleModel
 
         # add any fields from the model that you would like to filter your searches by using those
-        fields = ["id", "name", "description"]
+        fields = "__all__"
