@@ -13,16 +13,15 @@ class NautobotNMSIntegrationExampleModelForm(NautobotModelForm):  # pylint: disa
         """Meta attributes."""
 
         model = models.NautobotNMSIntegrationExampleModel
-        fields = [
-            "name",
-            "description",
-        ]
+        fields = "__all__"
 
 
 class NautobotNMSIntegrationExampleModelBulkEditForm(TagsBulkEditFormMixin, NautobotBulkEditForm):  # pylint: disable=too-many-ancestors
     """NautobotNMSIntegrationExampleModel bulk edit form."""
 
-    pk = forms.ModelMultipleChoiceField(queryset=models.NautobotNMSIntegrationExampleModel.objects.all(), widget=forms.MultipleHiddenInput)
+    pk = forms.ModelMultipleChoiceField(
+        queryset=models.NautobotNMSIntegrationExampleModel.objects.all(), widget=forms.MultipleHiddenInput
+    )
     description = forms.CharField(required=False)
 
     class Meta:
