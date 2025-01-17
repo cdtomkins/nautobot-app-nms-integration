@@ -32,7 +32,7 @@ class NautobotNMSIntegrationExampleModelBulkEditForm(TagsBulkEditFormMixin, Naut
         ]
 
 
-class NautobotNMSIntegrationExampleModelFilterForm(NautobotFilterForm):
+class NautobotNMSIntegrationExampleModelFilterForm(NautobotFilterForm):  # pylint: disable=too-many-ancestors
     """Filter form to filter searches."""
 
     model = models.NautobotNMSIntegrationExampleModel
