@@ -5,6 +5,7 @@ from nautobot.apps.ui import TemplateExtension
 
 class DeviceContent(TemplateExtension):  # pylint: disable=abstract-method
     """Add a test panel to device."""
+
     model = "dcim.device"
 
     def right_page(self):
@@ -20,4 +21,5 @@ class DeviceContent(TemplateExtension):  # pylint: disable=abstract-method
         </div>
         """
 
-template_extensions = [DeviceContent] # Important to include!
+
+template_extensions = [DeviceContent]  # Important to include!
